@@ -25,14 +25,14 @@
     "displayName": "Specialization",
     "skills": [
       {
-        "id": "1740395657898",
-        "name": "ReactJS",
-        "rating": 5
-      },
-      {
         "id": "1740395651799",
         "name": "Angular",
         "rating": 7
+      },
+      {
+        "id": "1740395657898",
+        "name": "ReactJS",
+        "rating": 5
       },
       {
         "id": "1740395644199",
@@ -95,7 +95,7 @@
         "rating": 7
       }
     ],
-    "skillAnimationType": "moving-animation"
+    "skillAnimationType": "scale-animation"
   },
   "achievementsInfo": {
     "displayName": "Achievements",
