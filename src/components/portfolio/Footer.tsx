@@ -14,7 +14,7 @@ export default function Footer() {
     <ContactViewWithAuth
       email={personalInfo.email}
       phoneNumber={personalInfo.contactNumber}
-      gradientColors={["#C71585", "#A95C68 ", "#FFB6C1"]}
+      gradientColors={["#155e75", "#0891b2 ", "#155e75"]}
     />
   );
 }
