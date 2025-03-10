@@ -6,7 +6,9 @@ import { usePortfolioStore } from "@/store/usePortfolioStore";
 //import { HeroEditableWithAuth } from "portfolioui/job-jackpot";
 import { useAppStore } from "@/store/appStore";
 //import { HeroHighlight } from "../ui/hero-hightlight";
-import { HeroHighlightDemo } from "../HeroHighlight";
+//import { HeroHighlightDemo } from "../HeroHighlight";
+//import { RetroGrid } from "../ui/retro-grid";
+import { RetroGridDemo } from "../RetroGrid";
 //import { HeroEditableWithAuth } from "portfolioui/job-jackpot";
 
 export const Hero = () => {
@@ -34,7 +36,7 @@ export const Hero = () => {
   //   />
   // );
   return (
-    <HeroHighlightDemo
+    <RetroGridDemo
       isEditing={isEditing}
       heroInfo={heroInfo}
       isLoading={isLoading}

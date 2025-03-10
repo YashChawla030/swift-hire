@@ -42,7 +42,7 @@ export function HeroHighlightDemo({
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -10 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="mt-2 mx-auto w-fit"
+        className="mx-auto w-fit"
       >
         <Highlight className="text-2xl py-2 md:py-4 text-black dark:text-white px-6">
           {introParts.length > 1
@@ -52,7 +52,7 @@ export function HeroHighlightDemo({
       </motion.div>
 
       {/* Static Description */}
-      <div className="mt-2 text-xl py-2 md:py-4 mx-auto max-w-3xl text-center">
+      <div className="text-xl py-2 md:py-4 mx-auto max-w-3xl text-center">
         {heroInfo?.description}
       </div>
 
